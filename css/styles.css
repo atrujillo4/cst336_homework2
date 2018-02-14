@@ -1,0 +1,32 @@
+
+
+body {
+    background-color: black;
+    background-image: url("/Basketball/Background/background2.png");
+    color: white;
+    /*height: 100%; */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#reel1, #reel2 {
+    top:248px;
+    position:absolute;
+}
+#reel1{
+    left:145px;
+}
+#reel2{
+    right:145px;
+}
+
+#output{
+    width:709px;   
+    margin:0 auto;
+    position:absolute;
+    text-align:right;
+    top:550px;
+    font-size:2em;
+    line-height: 1em;
+}
